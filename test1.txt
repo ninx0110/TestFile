@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+void test();
+
+int mani(void)
+{
+	test();
+	cout << "hello world!" << endl;
+	
+	system("pause");
+	return 0;
+}
+
+void test(){
+
+	cout << "test" << endl;
+}
